@@ -1,0 +1,325 @@
+{
+  "cat_seccion": [
+    {
+      "id": 1,
+      "descripcion": "comidas"
+    },
+    {
+      "id": 2,
+      "descripcion": "bebidas"
+    }
+  ],
+  "cat_categorias": [
+    {
+      "id": 1,
+      "descripcion": "Marina",
+      "id_cat_seccion": 1,
+      "descripcion_cat_seccion": "comidas"
+    },
+    {
+      "id": 2,
+      "descripcion": "Rapida",
+      "id_cat_seccion": 1,
+      "descripcion_cat_seccion": "comidas"
+    },
+    {
+      "id": 3,
+      "descripcion": "China",
+      "id_cat_seccion": 1,
+      "descripcion_cat_seccion": "comidas"
+    },
+    {
+      "id": 4,
+      "descripcion": "Tradicional",
+      "id_cat_seccion": 1,
+      "descripcion_cat_seccion": "comidas"
+    },
+    {
+      "id": 5,
+      "descripcion": "Gaseosas",
+      "id_cat_seccion": 1,
+      "descripcion_cat_seccion": "comidas"
+    },
+    {
+      "id": 6,
+      "descripcion": "Jugos",
+      "id_cat_seccion": 1,
+      "descripcion_cat_seccion": "bebidas"
+    },
+    {
+      "id": 7,
+      "descripcion": "Cervezas",
+      "id_cat_seccion": 1,
+      "descripcion_cat_seccion": "bebidas"
+    }
+  ],
+  "mesas": [
+    {
+      "id": 1,
+      "nombre": "Mesa 01",
+      "estado": "Ocupado",
+      "nombreMozo": "Eugenia Miller",
+      "nombreCliente": "Aaron Prohaska",
+      "nPersonas": 1,
+      "consumo": 30.5,
+      "esperandoPedido": true,
+      "tEsperanto": 15
+    },
+    {
+      "id": 2,
+      "nombre": "Mesa 02",
+      "estado": "Disponible",
+      "nombreMozo": "",
+      "nombreCliente": "",
+      "nPersonas": 0,
+      "consumo": 0,
+      "esperandoPedido": false,
+      "tEsperanto": 0
+    },
+    {
+      "id": 3,
+      "nombre": "Mesa 03",
+      "estado": "Pagando",
+      "nombreMozo": "Eugenia Miller",
+      "nombreCliente": "Layla Parker",
+      "nPersonas": 4,
+      "consumo": 26,
+      "esperandoPedido": false,
+      "tEsperanto": 0
+    },
+    {
+      "id": 4,
+      "nombre": "Mesa 04",
+      "estado": "Ocupado",
+      "nombreMozo": "Eugenia Miller",
+      "nombreCliente": "Skye Bogan",
+      "nPersonas": 5,
+      "consumo": 60,
+      "esperandoPedido": true,
+      "tEsperanto": 10
+    },
+    {
+      "id": 5,
+      "nombre": "Mesa 05",
+      "estado": "Disponible",
+      "nombreMozo": "",
+      "nombreCliente": "",
+      "nPersonas": 0,
+      "consumo": 0,
+      "esperandoPedido": false,
+      "tEsperanto": 0
+    },
+    {
+      "id": 6,
+      "nombre": "Mesa 06",
+      "estado": "Disponible",
+      "nombreMozo": "",
+      "nombreCliente": "",
+      "nPersonas": 0,
+      "consumo": 0,
+      "esperandoPedido": false,
+      "tEsperanto": 0
+    },
+    {
+      "id": 7,
+      "nombre": "Mesa 07",
+      "estado": "Pagando",
+      "nombreMozo": "Eugenia Miller",
+      "nombreCliente": "Clara Sanford",
+      "nPersonas": 8,
+      "consumo": 120,
+      "esperandoPedido": false,
+      "tEsperanto": 10
+    },
+    {
+      "id": 8,
+      "nombre": "Mesa 08",
+      "estado": "Ocupado",
+      "nombreMozo": "Eugenia Miller",
+      "nombreCliente": "Clara Sanford",
+      "nPersonas": 4,
+      "consumo": 56.4,
+      "esperandoPedido": false,
+      "tEsperanto": 0
+    },
+    {
+      "id": 9,
+      "nombre": "Mesa 09",
+      "estado": "Disponible",
+      "nombreMozo": "",
+      "nombreCliente": "",
+      "nPersonas": 0,
+      "consumo": 0,
+      "esperandoPedido": false,
+      "tEsperanto": 0
+    }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Ceviche",
+      "id_categoria": 1,
+      "categoria_nombre": "Marina",
+      "id_cat_seccion": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Chaufa",
+      "id_categoria": 2,
+      "categoria_nombre": "China",
+      "id_cat_seccion": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Chicharron",
+      "id_categoria": 4,
+      "categoria_nombre": "Tradicional",
+      "id_cat_seccion": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Aji de Gallina",
+      "id_categoria": 4,
+      "categoria_nombre": "Tradicional",
+      "id_cat_seccion": 1
+    },
+    {
+      "id": 5,
+      "nombre": "Lomo Saltado",
+      "id_categoria": 4,
+      "categoria_nombre": "Tradicional",
+      "id_cat_seccion": 1
+    },
+    {
+      "id": 6,
+      "nombre": "Cau Cau",
+      "id_categoria": 4,
+      "categoria_nombre": "Tradicional",
+      "id_cat_seccion": 1
+    },
+    {
+      "id": 7,
+      "nombre": "Pollo a la Brasa",
+      "id_categoria": 2,
+      "categoria_nombre": "Rapida",
+      "id_cat_seccion": 1
+    },
+    {
+      "id": 8,
+      "nombre": "Hamburguesa",
+      "id_categoria": 2,
+      "categoria_nombre": "Rapida",
+      "id_cat_seccion": 1
+    },
+    {
+      "id": 9,
+      "nombre": "CocaCola",
+      "id_categoria": 2,
+      "categoria_nombre": "Gaseosas",
+      "id_cat_seccion": 2
+    },
+    {
+      "id": 10,
+      "nombre": "Jugo de naranja",
+      "id_categoria": 2,
+      "categoria_nombre": "Jugos",
+      "id_cat_seccion": 2
+    },
+    {
+      "id": 11,
+      "nombre": "Cristal",
+      "id_categoria": 2,
+      "categoria_nombre": "Cervezas",
+      "id_cat_seccion": 2
+    }
+  ],
+  "presentaciones":[
+    {
+      "id": 1,
+      "productoId": 1,
+      "descripcion": "Unico",
+      "presentacion_precio": 12.5
+    },
+    {
+      "id": 2,
+      "productoId": 2,
+      "descripcion": "Unico",
+      "presentacion_precio": 12
+    },
+    {
+      "id": 3,
+      "productoId": 3,
+      "descripcion": "Unico",
+      "presentacion_precio": 20
+    },
+    {
+      "id": 4,
+      "productoId": 4,
+      "descripcion": "Unico",
+      "presentacion_precio": 8
+    },
+    {
+      "id": 5,
+      "productoId": 5,
+      "descripcion": "Unico",
+      "presentacion_precio": 10
+    },
+    {
+      "id": 6,
+      "productoId": 6,
+      "descripcion": "Unico",
+      "presentacion_precio": 10.5
+    },
+    {
+      "id": 7,
+      "productoId": 7,
+      "descripcion": "Unico",
+      "presentacion_precio": 9.5
+    },
+    {
+      "id": 8,
+      "productoId": 8,
+      "descripcion": "Unico",
+      "presentacion_precio": 7
+    },
+    {
+      "id": 9,
+      "productoId": 9,
+      "descripcion": "500 ml",
+      "presentacion_precio": 5
+    },
+    {
+      "id": 10,
+      "productoId": 9,
+      "descripcion": "1000 ml",
+      "presentacion_precio": 10
+    },
+    {
+      "id": 11,
+      "productoId": 9,
+      "descripcion": "3000 ml",
+      "presentacion_precio": 15
+    },
+    {
+      "id": 12,
+      "productoId": 10,
+      "descripcion": "Vaso pequeño",
+      "presentacion_precio": 5
+    },
+    {
+      "id": 13,
+      "productoId": 10,
+      "descripcion": "Vaso grande",
+      "presentacion_precio": 9
+    },
+    {
+      "id": 14,
+      "productoId": 11,
+      "descripcion": "Botella 650ml",
+      "presentacion_precio": 6
+    }
+  ],
+  "orders": [],
+  "comprobantePago": [],
+  "detalle": []
+}
