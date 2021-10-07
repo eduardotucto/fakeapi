@@ -1,58 +1,4 @@
 {
-  "cat_seccion": [
-    {
-      "id": 1,
-      "descripcion": "comidas"
-    },
-    {
-      "id": 2,
-      "descripcion": "bebidas"
-    }
-  ],
-  "cat_categorias": [
-    {
-      "id": 1,
-      "descripcion": "Marina",
-      "id_cat_seccion": 1,
-      "descripcion_cat_seccion": "comidas"
-    },
-    {
-      "id": 2,
-      "descripcion": "Rapida",
-      "id_cat_seccion": 1,
-      "descripcion_cat_seccion": "comidas"
-    },
-    {
-      "id": 3,
-      "descripcion": "China",
-      "id_cat_seccion": 1,
-      "descripcion_cat_seccion": "comidas"
-    },
-    {
-      "id": 4,
-      "descripcion": "Tradicional",
-      "id_cat_seccion": 1,
-      "descripcion_cat_seccion": "comidas"
-    },
-    {
-      "id": 5,
-      "descripcion": "Gaseosas",
-      "id_cat_seccion": 1,
-      "descripcion_cat_seccion": "comidas"
-    },
-    {
-      "id": 6,
-      "descripcion": "Jugos",
-      "id_cat_seccion": 1,
-      "descripcion_cat_seccion": "bebidas"
-    },
-    {
-      "id": 7,
-      "descripcion": "Cervezas",
-      "id_cat_seccion": 1,
-      "descripcion_cat_seccion": "bebidas"
-    }
-  ],
   "mesas": [
     {
       "id": 1,
@@ -320,6 +266,5 @@
     }
   ],
   "orders": [],
-  "comprobantePago": [],
-  "detalle": []
+  "comprobantePago": []
 }
